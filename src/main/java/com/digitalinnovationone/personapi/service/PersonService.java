@@ -4,7 +4,7 @@ import com.digitalinnovationone.personapi.dto.MessageResponseDTO;
 import com.digitalinnovationone.personapi.dto.request.PersonDTO;
 import com.digitalinnovationone.personapi.entity.Person;
 import com.digitalinnovationone.personapi.mapper.PersonMapper;
-import com.digitalinnovationone.repository.PersonRepository;
+import com.digitalinnovationone.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
