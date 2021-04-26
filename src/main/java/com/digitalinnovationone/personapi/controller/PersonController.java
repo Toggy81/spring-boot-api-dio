@@ -1,6 +1,6 @@
 package com.digitalinnovationone.personapi.controller;
 
-import com.digitalinnovationone.exception.PersonNotFoundException;
+import com.digitalinnovationone.personapi.exception.PersonNotFoundException;
 import com.digitalinnovationone.personapi.dto.MessageResponseDTO;
 import com.digitalinnovationone.personapi.dto.request.PersonDTO;
 import com.digitalinnovationone.personapi.service.PersonService;
@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController

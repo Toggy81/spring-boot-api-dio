@@ -1,6 +1,5 @@
 package com.digitalinnovationone.personapi.dto.request;
 
-import com.digitalinnovationone.personapi.entity.Phone;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -42,5 +41,5 @@ public class PersonDTO {
 
     @Valid
     @NotEmpty
-    private List<Phone> phones;
+    private List<PhoneDTO> phones;
 }
